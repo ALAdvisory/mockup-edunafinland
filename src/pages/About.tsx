@@ -69,10 +69,10 @@ const About = () => {
                       </div>
                     </div>
                     <p className="text-muted-foreground mb-4">
-                      Olga is a Finnish-trained special education teacher with extensive experience in early childhood and preschool inclusive education. Her passion lies in creating practical, evidence-based solutions that work in real classroom settings.
+                      A Finnish-trained special education teacher with deep expertise in early childhood and preschool inclusive education. Olga brings the Finnish approach to life through practical, evidence-based strategies that transform classroom environments. Her specialty lies in making complex special education concepts accessible and immediately actionable for educators.
                     </p>
                     <p className="text-muted-foreground">
-                      With years of hands-on experience supporting children with diverse learning needs, Olga specializes in behavioral support, individualized planning, and helping educators build confidence in inclusive practices. She believes that every child deserves to feel capable and valued.
+                      Expert in behavioral support strategies, individualized educational planning, and early intervention approaches. Olga excels at helping educators recognize early support needs and respond with confidence and compassion. Her strength is building sustainable inclusive practices that work in real-world settings, not just theory. She's passionate about empowering educators to see the potential in every learner.
                     </p>
                   </div>
                 </div>
@@ -99,10 +99,10 @@ const About = () => {
                       </div>
                     </div>
                     <p className="text-muted-foreground mb-4">
-                      Päivi brings deep expertise in Finnish special education pedagogy and collaborative teaching approaches. She excels at helping educational teams develop shared understanding and sustainable inclusive practices.
+                      A Finnish special education pedagogy expert with exceptional skill in building collaborative, high-performing educational teams. Päivi specializes in the reflective practices that make Finnish education world-renowned, helping schools develop shared vision and sustainable inclusive cultures. Her approach transforms how teams think, communicate, and grow together.
                     </p>
                     <p className="text-muted-foreground">
-                      Her strengths include assessment, early intervention strategies, and building strong partnerships between educators and families. Päivi is dedicated to strengthening teacher wellbeing and professional capacity, knowing that confident educators create thriving learning environments.
+                      Specialist in pedagogical assessment, observation-based intervention strategies, and family-school partnerships. Päivi's superpower is strengthening educator wellbeing and professional confidence—the foundation of truly inclusive environments. She combines strategic thinking with practical tools, helping school leaders build professional capacity that lasts. Her work creates ripple effects: confident educators build confident, capable children.
                     </p>
                   </div>
                 </div>
@@ -113,7 +113,7 @@ const About = () => {
             <div className="mt-8 p-8 bg-gradient-to-br from-primary/10 to-accent/10 rounded-xl">
               <h4 className="text-xl font-bold text-foreground mb-3">Together for Inclusion</h4>
               <p className="text-muted-foreground mb-6">
-                Combining over 35 years of specialized experience in Finnish special needs and inclusive education, Olga and Päivi are dedicated to helping school leaders worldwide create supportive environments where every child can flourish.
+                With over 35 years of combined specialized experience in Finnish special needs and inclusive education, Olga and Päivi bring world-class expertise to school leaders worldwide. Their unique combination of practical classroom experience, strategic leadership support, and proven Finnish methodologies creates transformational change in educational communities. They don't bring ready-made solutions—they partner with you to build sustainable inclusive excellence.
               </p>
               <NavLink to="/contact">
                 <Button variant="cta" size="lg" className="w-full">
