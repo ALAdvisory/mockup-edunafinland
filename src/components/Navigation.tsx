@@ -24,7 +24,7 @@ const Navigation = () => {
             <img 
               src={edunaLogo} 
               alt="Eduna Finland - Together for Inclusion" 
-              className="h-10 w-auto object-contain mix-blend-multiply dark:mix-blend-normal dark:invert"
+              className="h-10 w-auto object-contain [filter:brightness(0)_saturate(100%)] dark:[filter:brightness(0)_saturate(100%)_invert(1)]"
             />
           </NavLink>
 

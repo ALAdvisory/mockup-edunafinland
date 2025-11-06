@@ -12,7 +12,7 @@ const Footer = () => {
             <img 
               src={edunaLogo} 
               alt="Eduna Finland - Together for Inclusion" 
-              className="h-12 w-auto object-contain brightness-0 invert"
+              className="h-12 w-auto object-contain [filter:brightness(0)_saturate(100%)_invert(1)]"
             />
             <p className="text-primary-foreground/80 text-sm">
               Inclusive education from Finland. Growing together, enriching every learner.
