@@ -38,7 +38,7 @@ const About = () => {
               Together for <span className="text-primary">Inclusion</span>
             </h1>
             <p className="text-xl text-muted-foreground">
-              Founded by two Finnish special education teachers with over 35 years of combined expertise in special needs and inclusive education. We believe that inclusion is not a program, but a mindset — a way of seeing, teaching, and growing together.
+              Founded by two Finnish special education teachers with over 35 years of combined expertise. We partner with school leaders to build truly inclusive environments where every child and educator can thrive.
             </p>
           </div>
         </div>

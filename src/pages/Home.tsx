@@ -6,16 +6,16 @@ import heroImage from "@/assets/hero-education.jpg";
 
 const Home = () => {
   const features = [
-    {
-      icon: Sprout,
-      title: "Growing Together",
-      description: "We don't bring ready-made solutions, but nurture them together through collaboration and reflection.",
-    },
-    {
-      icon: Users,
-      title: "Educator Wellbeing",
-      description: "Strengthening teachers' confidence and sense of purpose creates a foundation for thriving children.",
-    },
+      {
+        icon: Sprout,
+        title: "Collaborative Partnership",
+        description: "We work alongside your leadership and staff, co-creating solutions that fit your school's unique context.",
+      },
+      {
+        icon: Users,
+        title: "Staff Wellbeing First",
+        description: "Supporting your educators' confidence and capacity creates the foundation for thriving children.",
+      },
     {
       icon: BookOpen,
       title: "Evidence-Based",
@@ -29,11 +29,11 @@ const Home = () => {
   ];
 
   const outcomes = [
-    "Create a shared vision and language of inclusion",
-    "Strengthen staff wellbeing and confidence",
-    "Improve team collaboration and leadership",
-    "Build sustainable professional capacity",
-    "Help every child feel seen, capable, and valued",
+    "Create a shared vision and common language for inclusion",
+    "Build confident, equipped staff who work cohesively",
+    "Develop sustainable systems and professional capacity",
+    "Strengthen your school's reputation and outcomes",
+    "Ensure every child feels seen, capable, and valued",
   ];
 
   return (
@@ -55,7 +55,7 @@ const Home = () => {
             The Finnish Way.
           </h1>
           <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8 max-w-3xl mx-auto">
-            Expert training and practical support for educators working with diverse learners and special needs.
+            Expert training and practical support to help your staff work confidently with diverse learners and children with special needs.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <NavLink to="/contact">
@@ -88,7 +88,7 @@ const Home = () => {
               Why <span className="text-primary">Finnish Education?</span>
             </h2>
             <p className="text-lg text-muted-foreground">
-              Finland's approach to special needs and inclusive education is world-renowned for its evidence-based practices, highly qualified special education teachers, and supportive systems. Every child receives the support they need through early intervention, individualized planning, and collaborative teamwork between educators, specialists, and families.
+              Finland's approach to special needs and inclusive education is world-renowned for its evidence-based practices, highly qualified educators, and comprehensive support systems. Schools provide every child with the support they need through early intervention, individualized planning, and seamless collaboration between staff, specialists, and families.
             </p>
           </div>
 
@@ -116,16 +116,13 @@ const Home = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-                When Educators Thrive,
-                <br />
-                <span className="text-primary">Children Flourish</span>
-              </h2>
-              <p className="text-lg text-muted-foreground mb-6">
-                Our work helps schools create sustainable change by focusing on what matters most: the wellbeing and
-                confidence of educators. When teachers feel supported and connected, inclusion becomes part of the
-                culture — not an extra task.
-              </p>
+            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
+              Invest in Your Staff,<br />
+              <span className="text-primary">Transform Your School</span>
+            </h2>
+            <p className="text-lg text-muted-foreground mb-6">
+              We help school leaders create sustainable change by strengthening their greatest asset: their educators. When your staff feel supported and equipped, inclusion becomes part of your school culture — not an added burden.
+            </p>
               <div className="space-y-3">
                 {outcomes.map((outcome, index) => (
                   <div key={index} className="flex items-start space-x-3">
@@ -149,7 +146,7 @@ const Home = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">Ready to Build an Inclusive School?</h2>
           <p className="text-xl text-primary-foreground/90 mb-8 max-w-2xl mx-auto">
-            Join forward-thinking educators who are transforming their schools with Finnish expertise.
+            Join forward-thinking school leaders who are transforming their institutions with Finnish special education expertise.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <NavLink to="/contact">

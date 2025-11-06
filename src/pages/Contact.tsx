@@ -101,7 +101,7 @@ const Contact = () => {
               Let's Start the <span className="text-primary">Conversation</span>
             </h1>
             <p className="text-xl text-muted-foreground">
-              Book a complimentary consultation to explore how we can support your school's inclusion journey.
+              Ready to transform your school? Book a complimentary consultation to explore how we can support your inclusion journey.
             </p>
           </div>
         </div>

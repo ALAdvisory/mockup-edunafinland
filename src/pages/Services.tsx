@@ -57,10 +57,10 @@ const Services = () => {
   ];
 
   const outcomes = [
-    "Clearer vision and shared language around inclusion",
-    "Confident, supported educators who feel equipped",
-    "Measurable improvements in team collaboration",
-    "Children who feel valued, capable, and included",
+    "Clear vision and shared language across your school",
+    "Confident staff who feel equipped and supported",
+    "Measurable improvements in collaboration and culture",
+    "Children who thrive in truly inclusive environments",
   ];
 
   return (
@@ -78,7 +78,7 @@ const Services = () => {
               Every Educator Empowered.
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8">
-              Finnish special education expertise that transforms schools without overwhelming teams.
+              Finnish special education expertise that transforms schools without overwhelming your teams.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <NavLink to="/contact">
@@ -102,7 +102,7 @@ const Services = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-12">
-              What Schools Achieve Working With Us
+              What Your School Will Achieve
             </h2>
             <div className="grid md:grid-cols-2 gap-6">
               {outcomes.map((outcome, index) => (
@@ -228,7 +228,7 @@ const Services = () => {
           <Card className="border-none shadow-2xl bg-gradient-to-br from-primary via-primary to-primary/80 text-primary-foreground overflow-hidden relative">
             <div className="absolute inset-0 bg-grid-white/5" />
             <CardContent className="p-12 md:p-16 text-center relative z-10">
-              <h2 className="text-4xl md:text-5xl font-bold mb-6">Don't See What You Need?</h2>
+              <h2 className="text-4xl md:text-5xl font-bold mb-6">Don't See What Your School Needs?</h2>
               <p className="text-xl text-primary-foreground/90 mb-8 max-w-2xl mx-auto">
                 Every school's journey is unique. Let's design a custom package that fits your specific context, timeline, and goals.
               </p>
