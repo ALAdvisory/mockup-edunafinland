@@ -74,11 +74,11 @@ const Services = () => {
               <span className="text-sm font-medium text-primary">Finnish Inclusive Education</span>
             </div>
             <h1 className="text-5xl md:text-7xl font-bold text-foreground mb-6 leading-tight">
-              Transform Your School.<br />
-              <span className="text-primary">Empower Every Child.</span>
+              <span className="text-primary">Every Child Included.</span><br />
+              Every Educator Empowered.
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8">
-              Evidence-based support packages designed to build sustainable, inclusive education — without overwhelming your team.
+              Finnish special education expertise that transforms schools without overwhelming teams.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <NavLink to="/contact">
