@@ -73,7 +73,7 @@ const Approach = () => {
               The <span className="text-primary">Finnish Way</span>
             </h1>
             <p className="text-xl text-muted-foreground">
-              Finland's special needs and inclusive education system is built on trust, equality, early intervention, and comprehensive support. Discover the approach that has made Finnish special education world-renowned.
+              Trust. Equality. Early intervention. Comprehensive support. This is what makes Finnish special education world class.
             </p>
           </div>
         </div>
@@ -85,7 +85,7 @@ const Approach = () => {
           <div className="max-w-3xl mx-auto text-center mb-12">
             <h2 className="text-4xl font-bold text-foreground mb-4">Finnish Special Education Framework</h2>
             <p className="text-lg text-muted-foreground">
-              These evidence-based principles have shaped decades of successful special needs and inclusive education in Finland.
+              These principles shaped decades of successful inclusive education in Finland. They work.
             </p>
           </div>
 
@@ -111,7 +111,7 @@ const Approach = () => {
           <div className="max-w-3xl mx-auto text-center mb-12">
             <h2 className="text-4xl font-bold text-foreground mb-4">How We Work</h2>
             <p className="text-lg text-muted-foreground">
-              Our approach is collaborative, reflective, and practical — designed to create lasting change.
+              Collaborative. Reflective. Practical. Built to create lasting change.
             </p>
           </div>
 
@@ -163,8 +163,7 @@ const Approach = () => {
                     </li>
                   </ul>
                   <p className="text-xl font-semibold text-foreground pt-4">
-                    When educators feel supported and connected, inclusion becomes part of the culture — not an extra
-                    task.
+                    When educators feel supported and connected, inclusion becomes part of the culture. Not an extra task.
                   </p>
                 </div>
               </CardContent>

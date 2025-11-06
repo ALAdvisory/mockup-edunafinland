@@ -39,7 +39,7 @@ const About = () => {
               Together for <span className="text-primary">Inclusion</span>
             </h1>
             <p className="text-xl text-muted-foreground">
-              Founded by two Finnish special education teachers with over 35 years of combined expertise. We partner with school leaders to build truly inclusive environments where every child and educator can thrive.
+              Two Finnish special education experts. 35+ years combined experience. One mission: help you build schools where every child and educator thrives.
             </p>
           </div>
         </div>
@@ -69,10 +69,10 @@ const About = () => {
                       </div>
                     </div>
                     <p className="text-muted-foreground mb-4">
-                      A Finnish-trained special education teacher with deep expertise in early childhood and preschool inclusive education. Olga brings the Finnish approach to life through practical, evidence-based strategies that transform classroom environments. Her specialty lies in making complex special education concepts accessible and immediately actionable for educators.
+                      Finnish trained special education teacher specializing in early childhood and preschool inclusion. Olga transforms complex concepts into practical strategies educators can use immediately. She makes the Finnish approach accessible and real.
                     </p>
                     <p className="text-muted-foreground">
-                      Expert in behavioral support strategies, individualized educational planning, and early intervention approaches. Olga excels at helping educators recognize early support needs and respond with confidence and compassion. Her strength is building sustainable inclusive practices that work in real-world settings, not just theory. She's passionate about empowering educators to see the potential in every learner.
+                      Her focus: behavioral support, individualized planning, and early intervention. She helps educators spot support needs early and respond with confidence. No theory for theory's sake. Just sustainable practices that work in actual classrooms with real children.
                     </p>
                   </div>
                 </div>
@@ -99,10 +99,10 @@ const About = () => {
                       </div>
                     </div>
                     <p className="text-muted-foreground mb-4">
-                      A Finnish special education pedagogy expert with exceptional skill in building collaborative, high-performing educational teams. Päivi specializes in the reflective practices that make Finnish education world-renowned, helping schools develop shared vision and sustainable inclusive cultures. Her approach transforms how teams think, communicate, and grow together.
+                      Finnish special education pedagogy expert who builds high performing educational teams. Päivi brings the reflective practices that make Finnish education world class. She helps schools develop shared vision and cultures where inclusion sticks.
                     </p>
                     <p className="text-muted-foreground">
-                      Specialist in pedagogical assessment, observation-based intervention strategies, and family-school partnerships. Päivi's superpower is strengthening educator wellbeing and professional confidence—the foundation of truly inclusive environments. She combines strategic thinking with practical tools, helping school leaders build professional capacity that lasts. Her work creates ripple effects: confident educators build confident, capable children.
+                      Her specialty: pedagogical assessment, observation strategies, and family partnerships. But her real superpower? Strengthening educator wellbeing and confidence. Because that's where true inclusion starts. She gives school leaders practical tools to build capacity that lasts. Confident educators raise confident, capable children.
                     </p>
                   </div>
                 </div>
@@ -113,7 +113,7 @@ const About = () => {
             <div className="mt-8 p-8 bg-gradient-to-br from-primary/10 to-accent/10 rounded-xl">
               <h4 className="text-xl font-bold text-foreground mb-3">Together for Inclusion</h4>
               <p className="text-muted-foreground mb-6">
-                With over 35 years of combined specialized experience in Finnish special needs and inclusive education, Olga and Päivi bring world-class expertise to school leaders worldwide. Their unique combination of practical classroom experience, strategic leadership support, and proven Finnish methodologies creates transformational change in educational communities. They don't bring ready-made solutions—they partner with you to build sustainable inclusive excellence.
+                Over 35 years of combined experience in Finnish special needs and inclusive education. Olga and Päivi bring world class expertise to school leaders worldwide. Their mix of practical classroom experience, strategic leadership support, and proven Finnish methods creates real change. No cookie cutter solutions. They partner with you to build what actually works for your school.
               </p>
               <NavLink to="/contact">
                 <Button variant="cta" size="lg" className="w-full">

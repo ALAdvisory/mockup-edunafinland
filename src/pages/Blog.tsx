@@ -41,7 +41,7 @@ const Blog = () => {
               Insights & <span className="text-primary">Articles</span>
             </h1>
             <p className="text-xl text-muted-foreground">
-              Deep dives into special needs education, inclusive practices, Finnish pedagogy, and practical strategies from our expert founders.
+              Special needs education. Inclusive practices. Finnish pedagogy. Practical strategies that work.
             </p>
           </div>
         </div>
@@ -97,7 +97,7 @@ const Blog = () => {
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-4xl font-bold text-foreground mb-4">Stay Connected</h2>
             <p className="text-lg text-muted-foreground mb-8">
-              Subscribe to receive insights on Finnish special needs and inclusive education, practical tips for diverse learners, and updates from Eduna Finland.
+              Get insights on Finnish inclusive education, practical tips for diverse learners, and updates from Eduna Finland.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center max-w-md mx-auto">
               <input
@@ -117,8 +117,7 @@ const Blog = () => {
       <section className="py-12 bg-accent/10">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-muted-foreground">
-            More articles coming soon! We're nurturing content that will enrich your understanding of inclusive
-            education.
+            More articles coming soon.
           </p>
         </div>
       </section>
