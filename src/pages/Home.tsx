@@ -59,19 +59,22 @@ const Home = () => {
             Practical training and curriculum support for early years education, stemming from trust, play, and the
             Finnish approach to nurturing every learner.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <NavLink to="/services">
-              <Button variant="hero" size="lg" className="text-lg px-8 py-6">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <NavLink to="/contact">
+              <Button variant="hero" size="lg" className="text-lg px-10 py-7">
                 <Sparkles className="mr-2 h-5 w-5" />
-                Explore Our Services
+                Book Free Consultation
               </Button>
             </NavLink>
-            <NavLink to="/about">
-              <Button variant="outline" size="lg" className="text-lg px-8 py-6 border-2 border-primary-foreground bg-transparent text-primary-foreground hover:bg-primary-foreground hover:text-primary">
-                Learn About Us
+            <NavLink to="/services">
+              <Button variant="outline" size="lg" className="text-lg px-10 py-7 border-2 border-primary-foreground bg-transparent text-primary-foreground hover:bg-primary-foreground hover:text-primary">
+                View Packages
               </Button>
             </NavLink>
           </div>
+          <p className="mt-6 text-sm text-primary-foreground/80">
+            No commitment required • Typical response within 24 hours
+          </p>
         </div>
 
         {/* Scroll indicator */}
@@ -151,15 +154,22 @@ const Home = () => {
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-br from-primary via-primary to-primary/90 text-primary-foreground">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">Ready to Transform Your Educational Practice?</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-6">Ready to Build an Inclusive School?</h2>
           <p className="text-xl text-primary-foreground/90 mb-8 max-w-2xl mx-auto">
-            Let's explore how Finnish inclusive education can enrich your learning community.
+            Join forward-thinking educators who are transforming their schools with Finnish expertise.
           </p>
-          <NavLink to="/contact">
-            <Button variant="hero" size="lg" className="text-lg px-8 py-6">
-              Start the Conversation
-            </Button>
-          </NavLink>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <NavLink to="/contact">
+              <Button variant="hero" size="lg" className="text-lg px-10 py-7">
+                Book Free Consultation
+              </Button>
+            </NavLink>
+            <NavLink to="/services">
+              <Button variant="outline" size="lg" className="text-lg px-10 py-7 border-2 border-primary-foreground bg-transparent text-primary-foreground hover:bg-primary-foreground hover:text-primary">
+                Explore Packages
+              </Button>
+            </NavLink>
+          </div>
         </div>
       </section>
     </div>

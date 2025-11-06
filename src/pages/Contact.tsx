@@ -64,12 +64,15 @@ const Contact = () => {
       <section className="py-20 bg-gradient-to-br from-secondary to-background">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center">
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 rounded-full mb-6">
+              <Sparkles className="h-4 w-4 text-primary" />
+              <span className="text-sm font-medium text-primary">Free Consultation Available</span>
+            </div>
             <h1 className="text-5xl md:text-6xl font-bold text-foreground mb-6">
-              Let's <span className="text-primary">Connect</span>
+              Let's Start the <span className="text-primary">Conversation</span>
             </h1>
             <p className="text-xl text-muted-foreground">
-              Ready to transform your educational practice? We're here to listen, collaborate, and support your journey
-              toward inclusive education.
+              Book a complimentary consultation to explore how we can support your school's inclusion journey.
             </p>
           </div>
         </div>
@@ -82,7 +85,8 @@ const Contact = () => {
             {/* Form */}
             <Card className="border-none shadow-2xl bg-card">
               <CardContent className="p-8">
-                <h2 className="text-3xl font-bold text-foreground mb-6">Send Us a Message</h2>
+                <h2 className="text-3xl font-bold text-foreground mb-2">Get Started Today</h2>
+                <p className="text-muted-foreground mb-6">Typically respond within 24 hours</p>
                 <form onSubmit={handleSubmit} className="space-y-6">
                   <div>
                     <Label htmlFor="name">
