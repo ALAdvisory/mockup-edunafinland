@@ -2,7 +2,8 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { NavLink } from "@/components/NavLink";
 import { Heart, Users, Lightbulb, Globe, GraduationCap, Target } from "lucide-react";
-import foundersImage from "@/assets/founders-portrait.jpg";
+import olgaPortrait from "@/assets/olga-portrait.jpg";
+import paiviPortrait from "@/assets/paivi-portrait.jpg";
 
 const About = () => {
   const values = [
@@ -47,70 +48,78 @@ const About = () => {
       {/* Founders Section */}
       <section className="py-20">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-16 items-start">
-            <div className="order-2 lg:order-1 space-y-12">
-              {/* Olga Saghar */}
-              <Card className="border-none shadow-xl bg-card">
-                <CardContent className="p-8">
-                  <div className="flex items-start gap-4 mb-6">
-                    <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0">
-                      <GraduationCap className="h-8 w-8 text-primary" />
+          <div className="space-y-12 max-w-4xl mx-auto">
+            {/* Olga Saghar */}
+            <Card className="border-none shadow-xl bg-card">
+              <CardContent className="p-8">
+                <div className="grid md:grid-cols-[200px_1fr] gap-8 items-start">
+                  <img
+                    src={olgaPortrait}
+                    alt="Olga Saghar - Co-Founder & Special Education Expert"
+                    className="rounded-xl shadow-lg w-full"
+                  />
+                  <div>
+                    <div className="flex items-start gap-4 mb-6">
+                      <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0">
+                        <GraduationCap className="h-8 w-8 text-primary" />
+                      </div>
+                      <div>
+                        <h3 className="text-2xl font-bold text-foreground mb-1">Olga Saghar</h3>
+                        <p className="text-primary font-medium">Co-Founder & Special Education Expert</p>
+                      </div>
                     </div>
-                    <div>
-                      <h3 className="text-2xl font-bold text-foreground mb-1">Olga Saghar</h3>
-                      <p className="text-primary font-medium">Co-Founder & Special Education Expert</p>
-                    </div>
+                    <p className="text-muted-foreground mb-4">
+                      Olga is a Finnish-trained special education teacher with extensive experience in early childhood and preschool inclusive education. Her passion lies in creating practical, evidence-based solutions that work in real classroom settings.
+                    </p>
+                    <p className="text-muted-foreground">
+                      With years of hands-on experience supporting children with diverse learning needs, Olga specializes in behavioral support, individualized planning, and helping educators build confidence in inclusive practices. She believes that every child deserves to feel capable and valued.
+                    </p>
                   </div>
-                  <p className="text-muted-foreground mb-4">
-                    Olga is a Finnish-trained special education teacher with extensive experience in early childhood and preschool inclusive education. Her passion lies in creating practical, evidence-based solutions that work in real classroom settings.
-                  </p>
-                  <p className="text-muted-foreground">
-                    With years of hands-on experience supporting children with diverse learning needs, Olga specializes in behavioral support, individualized planning, and helping educators build confidence in inclusive practices. She believes that every child deserves to feel capable and valued.
-                  </p>
-                </CardContent>
-              </Card>
-
-              {/* Päivi Pekkala */}
-              <Card className="border-none shadow-xl bg-card">
-                <CardContent className="p-8">
-                  <div className="flex items-start gap-4 mb-6">
-                    <div className="w-16 h-16 bg-accent/10 rounded-full flex items-center justify-center flex-shrink-0">
-                      <Target className="h-8 w-8 text-accent" />
-                    </div>
-                    <div>
-                      <h3 className="text-2xl font-bold text-foreground mb-1">Päivi Pekkala</h3>
-                      <p className="text-accent font-medium">Co-Founder & Inclusion Specialist</p>
-                    </div>
-                  </div>
-                  <p className="text-muted-foreground mb-4">
-                    Päivi brings deep expertise in Finnish special education pedagogy and collaborative teaching approaches. She excels at helping educational teams develop shared understanding and sustainable inclusive practices.
-                  </p>
-                  <p className="text-muted-foreground">
-                    Her strengths include assessment, early intervention strategies, and building strong partnerships between educators and families. Päivi is dedicated to strengthening teacher wellbeing and professional capacity, knowing that confident educators create thriving learning environments.
-                  </p>
-                </CardContent>
-              </Card>
-            </div>
-            
-            <div className="order-1 lg:order-2">
-              <div className="sticky top-24">
-                <img
-                  src={foundersImage}
-                  alt="Eduna Finland founders Olga Saghar and Päivi Pekkala"
-                  className="rounded-2xl shadow-2xl w-full"
-                />
-                <div className="mt-8 p-6 bg-gradient-to-br from-primary/10 to-accent/10 rounded-xl">
-                  <h4 className="text-xl font-bold text-foreground mb-3">Together for Inclusion</h4>
-                  <p className="text-muted-foreground">
-                    Combining over 35 years of specialized experience in Finnish special needs and inclusive education, Olga and Päivi are dedicated to helping educators worldwide create supportive environments where every child can flourish.
-                  </p>
                 </div>
-                <NavLink to="/contact">
-                  <Button variant="cta" size="lg" className="w-full mt-6">
-                    Work With Us
-                  </Button>
-                </NavLink>
-              </div>
+              </CardContent>
+            </Card>
+
+            {/* Päivi Pekkala */}
+            <Card className="border-none shadow-xl bg-card">
+              <CardContent className="p-8">
+                <div className="grid md:grid-cols-[200px_1fr] gap-8 items-start">
+                  <img
+                    src={paiviPortrait}
+                    alt="Päivi Pekkala - Co-Founder & Inclusion Specialist"
+                    className="rounded-xl shadow-lg w-full"
+                  />
+                  <div>
+                    <div className="flex items-start gap-4 mb-6">
+                      <div className="w-16 h-16 bg-accent/10 rounded-full flex items-center justify-center flex-shrink-0">
+                        <Target className="h-8 w-8 text-accent" />
+                      </div>
+                      <div>
+                        <h3 className="text-2xl font-bold text-foreground mb-1">Päivi Pekkala</h3>
+                        <p className="text-accent font-medium">Co-Founder & Inclusion Specialist</p>
+                      </div>
+                    </div>
+                    <p className="text-muted-foreground mb-4">
+                      Päivi brings deep expertise in Finnish special education pedagogy and collaborative teaching approaches. She excels at helping educational teams develop shared understanding and sustainable inclusive practices.
+                    </p>
+                    <p className="text-muted-foreground">
+                      Her strengths include assessment, early intervention strategies, and building strong partnerships between educators and families. Päivi is dedicated to strengthening teacher wellbeing and professional capacity, knowing that confident educators create thriving learning environments.
+                    </p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* CTA Card */}
+            <div className="mt-8 p-8 bg-gradient-to-br from-primary/10 to-accent/10 rounded-xl">
+              <h4 className="text-xl font-bold text-foreground mb-3">Together for Inclusion</h4>
+              <p className="text-muted-foreground mb-6">
+                Combining over 35 years of specialized experience in Finnish special needs and inclusive education, Olga and Päivi are dedicated to helping school leaders worldwide create supportive environments where every child can flourish.
+              </p>
+              <NavLink to="/contact">
+                <Button variant="cta" size="lg" className="w-full">
+                  Work With Us
+                </Button>
+              </NavLink>
             </div>
           </div>
         </div>
