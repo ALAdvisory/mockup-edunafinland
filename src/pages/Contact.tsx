@@ -21,11 +21,40 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    
+    // Trim all fields
+    const trimmedData = {
+      name: formData.name.trim(),
+      email: formData.email.trim(),
+      organization: formData.organization.trim(),
+      role: formData.role.trim(),
+      service: formData.service,
+      message: formData.message.trim(),
+    };
+    
     // Form validation
-    if (!formData.name || !formData.email || !formData.message) {
+    if (!trimmedData.name || trimmedData.name.length > 100) {
       toast({
-        title: "Missing Information",
-        description: "Please fill in all required fields.",
+        title: "Invalid Name",
+        description: "Please enter a valid name (max 100 characters).",
+        variant: "destructive",
+      });
+      return;
+    }
+    
+    if (!trimmedData.email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(trimmedData.email)) {
+      toast({
+        title: "Invalid Email",
+        description: "Please enter a valid email address.",
+        variant: "destructive",
+      });
+      return;
+    }
+    
+    if (!trimmedData.message || trimmedData.message.length > 2000) {
+      toast({
+        title: "Invalid Message",
+        description: "Please enter a message (max 2000 characters).",
         variant: "destructive",
       });
       return;
@@ -34,7 +63,7 @@ const Contact = () => {
     // In a real application, this would send to a backend
     toast({
       title: "Message Sent!",
-      description: "Thank you for reaching out. We'll get back to you within 24 hours.",
+      description: "Thank you for reaching out. We'll get back to you soon.",
     });
 
     // Reset form
@@ -85,8 +114,7 @@ const Contact = () => {
             {/* Form */}
             <Card className="border-none shadow-2xl bg-card">
               <CardContent className="p-8">
-                <h2 className="text-3xl font-bold text-foreground mb-2">Get Started Today</h2>
-                <p className="text-muted-foreground mb-6">Typically respond within 24 hours</p>
+                <h2 className="text-3xl font-bold text-foreground mb-6">Get Started Today</h2>
                 <form onSubmit={handleSubmit} className="space-y-6">
                   <div>
                     <Label htmlFor="name">
@@ -99,6 +127,7 @@ const Contact = () => {
                       onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                       placeholder="Your full name"
                       className="mt-2"
+                      maxLength={100}
                       required
                     />
                   </div>
@@ -168,8 +197,12 @@ const Contact = () => {
                       onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                       placeholder="Tell us about your needs and how we can help..."
                       className="mt-2 min-h-[150px]"
+                      maxLength={2000}
                       required
                     />
+                    <p className="text-xs text-muted-foreground mt-1">
+                      {formData.message.length}/2000 characters
+                    </p>
                   </div>
 
                   <Button type="submit" variant="cta" size="lg" className="w-full">
@@ -187,9 +220,9 @@ const Contact = () => {
                   <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                     <Mail className="h-6 w-6 text-primary" />
                   </div>
-                  <h3 className="text-2xl font-semibold text-foreground mb-3">Quick Response</h3>
+                  <h3 className="text-2xl font-semibold text-foreground mb-3">Responsive Partnership</h3>
                   <p className="text-muted-foreground">
-                    We typically respond within 24 hours. For urgent inquiries, please mention that in your message.
+                    We respond promptly to all inquiries and are committed to understanding your unique needs and context.
                   </p>
                 </CardContent>
               </Card>

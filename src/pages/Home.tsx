@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { NavLink } from "@/components/NavLink";
 import { Sparkles, Users, BookOpen, Sprout, Award, Globe } from "lucide-react";
-import heroImage from "@/assets/hero-image.jpg";
+import heroImage from "@/assets/hero-education.jpg";
 
 const Home = () => {
   const features = [
@@ -51,13 +51,13 @@ const Home = () => {
 
         <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 text-center max-w-5xl animate-fade-in">
           <h1 className="text-5xl md:text-7xl font-bold text-primary-foreground mb-6 leading-tight">
-            Inclusive Education
+            Special Needs &<br />
+            <span className="text-accent">Inclusive Education</span>
             <br />
-            <span className="text-accent">From Finland</span>
+            <span className="text-primary-foreground/90 text-4xl md:text-5xl">From Finland</span>
           </h1>
           <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8 max-w-3xl mx-auto">
-            Practical training and curriculum support for early years education, stemming from trust, play, and the
-            Finnish approach to nurturing every learner.
+            Expert training and practical support for early childhood educators working with diverse learners and children with special educational needs.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <NavLink to="/contact">
@@ -72,9 +72,6 @@ const Home = () => {
               </Button>
             </NavLink>
           </div>
-          <p className="mt-6 text-sm text-primary-foreground/80">
-            No commitment required • Typical response within 24 hours
-          </p>
         </div>
 
         {/* Scroll indicator */}
@@ -93,9 +90,7 @@ const Home = () => {
               Why <span className="text-primary">Finnish Education?</span>
             </h2>
             <p className="text-lg text-muted-foreground">
-              In Finland, early childhood education stems from trust, play, and inclusion. Children learn in small
-              groups, supported by qualified teachers who see each child as unique. The focus is not only on academic
-              skills, but on social-emotional growth, curiosity, and a sense of belonging.
+              Finland's approach to special needs and inclusive education is world-renowned for its evidence-based practices, highly qualified special education teachers, and supportive systems. Every child receives the support they need through early intervention, individualized planning, and collaborative teamwork between educators, specialists, and families.
             </p>
           </div>
 

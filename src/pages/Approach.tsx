@@ -2,7 +2,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { NavLink } from "@/components/NavLink";
 import { Smile, Trees, Users2, Lightbulb, Shield, HeartHandshake } from "lucide-react";
-import growthPattern from "@/assets/growth-pattern.jpg";
+import growthPattern from "@/assets/services-hero.jpg";
 
 const Approach = () => {
   const finnishWay = [
@@ -73,8 +73,7 @@ const Approach = () => {
               The <span className="text-primary">Finnish Way</span>
             </h1>
             <p className="text-xl text-muted-foreground">
-              Finland's education system stems from trust, equality, and joy. Discover the approach that has made
-              Finnish education world-renowned.
+              Finland's special needs and inclusive education system is built on trust, equality, early intervention, and comprehensive support. Discover the approach that has made Finnish special education world-renowned.
             </p>
           </div>
         </div>
@@ -84,9 +83,9 @@ const Approach = () => {
       <section className="py-20">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center mb-12">
-            <h2 className="text-4xl font-bold text-foreground mb-4">Finnish Education Framework</h2>
+            <h2 className="text-4xl font-bold text-foreground mb-4">Finnish Special Education Framework</h2>
             <p className="text-lg text-muted-foreground">
-              These core principles have shaped decades of successful inclusive education in Finland.
+              These evidence-based principles have shaped decades of successful special needs and inclusive education in Finland.
             </p>
           </div>
 

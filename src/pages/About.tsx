@@ -1,8 +1,8 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { NavLink } from "@/components/NavLink";
-import { Heart, Users, Lightbulb, Globe } from "lucide-react";
-import foundersImage from "@/assets/founders.jpg";
+import { Heart, Users, Lightbulb, Globe, GraduationCap, Target } from "lucide-react";
+import foundersImage from "@/assets/founders-portrait.jpg";
 
 const About = () => {
   const values = [
@@ -38,9 +38,7 @@ const About = () => {
               Together for <span className="text-primary">Inclusion</span>
             </h1>
             <p className="text-xl text-muted-foreground">
-              Eduna Finland stems from two Finnish special education teachers with over 35 years of combined experience.
-              We believe that inclusion is not a program, but a mindset — a way of seeing, teaching, and growing
-              together.
+              Founded by two Finnish special education teachers with over 35 years of combined expertise in special needs and inclusive education. We believe that inclusion is not a program, but a mindset — a way of seeing, teaching, and growing together.
             </p>
           </div>
         </div>
@@ -49,35 +47,70 @@ const About = () => {
       {/* Founders Section */}
       <section className="py-20">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="order-2 md:order-1">
-              <h2 className="text-4xl font-bold text-foreground mb-6">Meet Olga & Päivi</h2>
-              <p className="text-lg text-muted-foreground mb-4">
-                We are a company founded by two special education teachers from Finland, bringing together over 35 years
-                of combined experience in early childhood and preschool education.
-              </p>
-              <p className="text-lg text-muted-foreground mb-4">
-                Our expertise lies in promoting and developing inclusivity and providing practical examples and tools
-                for educators. We don't just understand the theory — we've lived it, taught it, and refined it through
-                decades of hands-on work with children, families, and educational teams.
-              </p>
-              <p className="text-lg text-muted-foreground mb-6">
-                We are dedicated to empowering early learning, preschool and childcare professionals. Our extensive
-                knowledge, expertise and resources will help you create inclusive, high-quality environments for all
-                children.
-              </p>
-              <NavLink to="/contact">
-                <Button variant="cta" size="lg">
-                  Work With Us
-                </Button>
-              </NavLink>
+          <div className="grid lg:grid-cols-2 gap-16 items-start">
+            <div className="order-2 lg:order-1 space-y-12">
+              {/* Olga Saghar */}
+              <Card className="border-none shadow-xl bg-card">
+                <CardContent className="p-8">
+                  <div className="flex items-start gap-4 mb-6">
+                    <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0">
+                      <GraduationCap className="h-8 w-8 text-primary" />
+                    </div>
+                    <div>
+                      <h3 className="text-2xl font-bold text-foreground mb-1">Olga Saghar</h3>
+                      <p className="text-primary font-medium">Co-Founder & Special Education Expert</p>
+                    </div>
+                  </div>
+                  <p className="text-muted-foreground mb-4">
+                    Olga is a Finnish-trained special education teacher with extensive experience in early childhood and preschool inclusive education. Her passion lies in creating practical, evidence-based solutions that work in real classroom settings.
+                  </p>
+                  <p className="text-muted-foreground">
+                    With years of hands-on experience supporting children with diverse learning needs, Olga specializes in behavioral support, individualized planning, and helping educators build confidence in inclusive practices. She believes that every child deserves to feel capable and valued.
+                  </p>
+                </CardContent>
+              </Card>
+
+              {/* Päivi Pekkala */}
+              <Card className="border-none shadow-xl bg-card">
+                <CardContent className="p-8">
+                  <div className="flex items-start gap-4 mb-6">
+                    <div className="w-16 h-16 bg-accent/10 rounded-full flex items-center justify-center flex-shrink-0">
+                      <Target className="h-8 w-8 text-accent" />
+                    </div>
+                    <div>
+                      <h3 className="text-2xl font-bold text-foreground mb-1">Päivi Pekkala</h3>
+                      <p className="text-accent font-medium">Co-Founder & Inclusion Specialist</p>
+                    </div>
+                  </div>
+                  <p className="text-muted-foreground mb-4">
+                    Päivi brings deep expertise in Finnish special education pedagogy and collaborative teaching approaches. She excels at helping educational teams develop shared understanding and sustainable inclusive practices.
+                  </p>
+                  <p className="text-muted-foreground">
+                    Her strengths include assessment, early intervention strategies, and building strong partnerships between educators and families. Päivi is dedicated to strengthening teacher wellbeing and professional capacity, knowing that confident educators create thriving learning environments.
+                  </p>
+                </CardContent>
+              </Card>
             </div>
-            <div className="order-1 md:order-2">
-              <img
-                src={foundersImage}
-                alt="Eduna Finland founders Olga and Päivi"
-                className="rounded-2xl shadow-2xl"
-              />
+            
+            <div className="order-1 lg:order-2">
+              <div className="sticky top-24">
+                <img
+                  src={foundersImage}
+                  alt="Eduna Finland founders Olga Saghar and Päivi Pekkala"
+                  className="rounded-2xl shadow-2xl w-full"
+                />
+                <div className="mt-8 p-6 bg-gradient-to-br from-primary/10 to-accent/10 rounded-xl">
+                  <h4 className="text-xl font-bold text-foreground mb-3">Together for Inclusion</h4>
+                  <p className="text-muted-foreground">
+                    Combining over 35 years of specialized experience in Finnish special needs and inclusive education, Olga and Päivi are dedicated to helping educators worldwide create supportive environments where every child can flourish.
+                  </p>
+                </div>
+                <NavLink to="/contact">
+                  <Button variant="cta" size="lg" className="w-full mt-6">
+                    Work With Us
+                  </Button>
+                </NavLink>
+              </div>
             </div>
           </div>
         </div>
