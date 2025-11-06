@@ -67,7 +67,7 @@ const Footer = () => {
                 <span>Contact Us</span>
               </NavLink>
               <a
-                href="#"
+                href="https://www.linkedin.com/company/eduna-finland"
                 className="flex items-center space-x-2 text-primary-foreground/80 hover:text-primary-foreground transition-colors text-sm"
                 target="_blank"
                 rel="noopener noreferrer"
