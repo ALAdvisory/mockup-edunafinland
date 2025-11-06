@@ -2,6 +2,7 @@ import { NavLink } from "@/components/NavLink";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
+import edunaLogo from "@/assets/eduna-logo.png";
 
 const Navigation = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -19,11 +20,12 @@ const Navigation = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <NavLink to="/" className="flex items-center space-x-2">
-            <div className="flex items-center">
-              <span className="text-2xl font-bold text-primary">Eduna</span>
-              <span className="text-2xl font-light text-foreground ml-1">Finland</span>
-            </div>
+          <NavLink to="/" className="flex items-center">
+            <img 
+              src={edunaLogo} 
+              alt="Eduna Finland - Together for Inclusion" 
+              className="h-10 w-auto object-contain mix-blend-multiply dark:mix-blend-normal dark:invert"
+            />
           </NavLink>
 
           {/* Desktop Navigation */}
