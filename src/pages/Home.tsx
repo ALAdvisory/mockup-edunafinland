@@ -51,13 +51,11 @@ const Home = () => {
 
         <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 text-center max-w-5xl animate-fade-in">
           <h1 className="text-5xl md:text-7xl font-bold text-primary-foreground mb-6 leading-tight">
-            Special Needs &<br />
-            <span className="text-accent">Inclusive Education</span>
-            <br />
-            <span className="text-primary-foreground/90 text-4xl md:text-5xl">From Finland</span>
+            <span className="text-accent">Every Child Thrives.</span><br />
+            Every School Succeeds.
           </h1>
           <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8 max-w-3xl mx-auto">
-            Expert training and practical support for early childhood educators working with diverse learners and children with special educational needs.
+            Finnish special education expertise for educators working with diverse learners.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <NavLink to="/contact">
