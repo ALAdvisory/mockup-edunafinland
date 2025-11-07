@@ -111,9 +111,12 @@ const About = () => {
 
             {/* CTA Card */}
             <div className="mt-8 p-8 bg-gradient-to-br from-primary/10 to-accent/10 rounded-xl">
-              <h4 className="text-xl font-bold text-foreground mb-3">Together for Inclusion</h4>
+              <h4 className="text-xl font-bold text-foreground mb-3">World-Class Expertise You Can Trust</h4>
+              <p className="text-muted-foreground mb-4">
+                Olga and Päivi are recognized as leading experts in Finnish inclusive education, bringing over 35 years of combined experience to institutions worldwide. They work with organizations of all sizes—from small private schools to large public education systems—delivering proven results that transform learning communities.
+              </p>
               <p className="text-muted-foreground mb-6">
-                Over 35 years of combined experience in Finnish special needs and inclusive education. Olga and Päivi bring world class expertise to school leaders worldwide. Their mix of practical classroom experience, strategic leadership support, and proven Finnish methods creates real change. No cookie cutter solutions. They partner with you to build what actually works for your school.
+                For larger scale projects, they draw upon an extensive network of world-class professionals, assembling specialized teams tailored to your unique needs. Whether you're a single school or a multi-site organization, you'll receive the same commitment to excellence and practical, sustainable solutions.
               </p>
               <NavLink to="/contact">
                 <Button variant="cta" size="lg" className="w-full">
