@@ -3,7 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { NavLink } from "@/components/NavLink";
 import { Sparkles, Users, BookOpen, Sprout, Award, Globe } from "lucide-react";
 import heroImage from "@/assets/hero-education.jpg";
-import staffCollaboration from "@/assets/staff-collaboration.jpg";
+import finnishNature from "@/assets/finnish-nature.jpg";
 
 const Home = () => {
   const features = [
@@ -137,8 +137,8 @@ const Home = () => {
             </div>
             <div className="relative">
               <img 
-                src={staffCollaboration} 
-                alt="Teachers collaborating on inclusive education strategies"
+                src={finnishNature} 
+                alt="Serene Finnish forest representing the natural approach to education"
                 className="aspect-square rounded-2xl object-cover shadow-lg hover:shadow-xl transition-shadow duration-300"
               />
             </div>
