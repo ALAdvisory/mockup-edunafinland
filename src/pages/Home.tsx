@@ -3,6 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { NavLink } from "@/components/NavLink";
 import { Sparkles, Users, BookOpen, Sprout, Award, Globe } from "lucide-react";
 import heroImage from "@/assets/hero-education.jpg";
+import staffCollaboration from "@/assets/staff-collaboration.jpg";
 
 const Home = () => {
   const features = [
@@ -135,7 +136,11 @@ const Home = () => {
               </div>
             </div>
             <div className="relative">
-              <div className="aspect-square rounded-2xl bg-gradient-to-br from-primary/20 to-accent/20 animate-float" />
+              <img 
+                src={staffCollaboration} 
+                alt="Teachers collaborating on inclusive education strategies"
+                className="aspect-square rounded-2xl object-cover shadow-lg hover:shadow-xl transition-shadow duration-300"
+              />
             </div>
           </div>
         </div>
