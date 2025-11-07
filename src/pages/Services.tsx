@@ -1,7 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { NavLink } from "@/components/NavLink";
-import { Sparkles, Target, Users, Rocket, ArrowRight, Check } from "lucide-react";
+import { Sparkles, Target, Users, Rocket, ArrowRight, Check, Mic2 } from "lucide-react";
 
 const Services = () => {
   const packages = [
@@ -190,6 +190,83 @@ const Services = () => {
                 </CardContent>
               </Card>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Speaking Engagements */}
+      <section className="py-20 bg-gradient-to-br from-accent/5 to-secondary">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-5xl mx-auto">
+            <div className="text-center mb-12">
+              <div className="inline-flex items-center gap-2 px-4 py-2 bg-accent/10 rounded-full mb-6">
+                <Mic2 className="h-4 w-4 text-accent" />
+                <span className="text-sm font-medium text-accent">Book Our Experts</span>
+              </div>
+              <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
+                Speaking Engagements
+              </h2>
+              <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+                Invite Olga and Päivi to inspire your conference, professional development day, or educational event with practical insights from Finnish inclusive education.
+              </p>
+            </div>
+
+            <Card className="border-none shadow-xl bg-card">
+              <CardContent className="p-8 md:p-12">
+                <div className="grid md:grid-cols-2 gap-8">
+                  <div>
+                    <h3 className="text-2xl font-bold text-foreground mb-4">
+                      World-Class Speakers
+                    </h3>
+                    <p className="text-muted-foreground mb-6">
+                      With decades of experience in Finnish special needs and inclusive education, Olga and Päivi deliver engaging, practical presentations that resonate with educators at all levels. Whether addressing a small team or a large conference, they bring clarity, inspiration, and actionable strategies.
+                    </p>
+                    <div className="space-y-3">
+                      {[
+                        "Keynote presentations for conferences",
+                        "Professional development workshops",
+                        "Leadership team sessions",
+                        "Educational summit presentations",
+                        "Panel discussions and Q&A forums"
+                      ].map((item, idx) => (
+                        <div key={idx} className="flex items-start gap-3">
+                          <div className="w-5 h-5 rounded-full bg-accent/20 flex items-center justify-center flex-shrink-0 mt-0.5">
+                            <Check className="h-3 w-3 text-accent" />
+                          </div>
+                          <span className="text-foreground">{item}</span>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+
+                  <div className="space-y-6">
+                    <div className="p-6 bg-secondary rounded-xl">
+                      <h4 className="font-semibold text-foreground mb-2">Popular Topics Include:</h4>
+                      <ul className="space-y-2 text-sm text-muted-foreground">
+                        <li>• Building truly inclusive classrooms</li>
+                        <li>• Finnish approaches to early intervention</li>
+                        <li>• Supporting educator wellbeing and confidence</li>
+                        <li>• Practical behavioral support strategies</li>
+                        <li>• Creating collaborative school cultures</li>
+                        <li>• Individualized learning and assessment</li>
+                      </ul>
+                    </div>
+
+                    <div className="p-6 bg-primary/5 rounded-xl border border-primary/20">
+                      <p className="text-sm text-foreground mb-4">
+                        <span className="font-semibold">Flexible formats:</span> From 45-minute keynotes to half-day workshops, we tailor our presentations to fit your event and audience needs.
+                      </p>
+                      <NavLink to="/contact">
+                        <Button variant="cta" size="lg" className="w-full">
+                          Book a Speaker
+                          <ArrowRight className="ml-2 h-4 w-4" />
+                        </Button>
+                      </NavLink>
+                    </div>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
