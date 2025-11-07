@@ -1,6 +1,6 @@
 import { NavLink } from "@/components/NavLink";
 import { Mail, Linkedin } from "lucide-react";
-import edunaLogo from "@/assets/eduna-logo.png";
+import edunaLogoWhite from "@/assets/eduna-logo-white.png";
 
 const Footer = () => {
   return (
@@ -10,9 +10,10 @@ const Footer = () => {
           {/* Brand */}
           <div className="space-y-4">
             <img 
-              src={edunaLogo} 
+              src={edunaLogoWhite} 
               alt="Eduna Finland - Together for Inclusion" 
-              className="h-12 w-auto object-contain [filter:brightness(0)_saturate(100%)_invert(1)]"
+              className="h-12 w-auto object-contain"
+              loading="lazy"
             />
             <p className="text-primary-foreground/80 text-sm">
               Inclusive education from Finland. Growing together, enriching every learner.

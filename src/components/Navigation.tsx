@@ -2,7 +2,7 @@ import { NavLink } from "@/components/NavLink";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
-import edunaLogo from "@/assets/eduna-logo.png";
+import edunaLogoWhite from "@/assets/eduna-logo-white.png";
 
 const Navigation = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -16,15 +16,18 @@ const Navigation = () => {
   ];
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-transparent backdrop-blur-0 border-b border-transparent">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <NavLink to="/" className="flex items-center">
             <img 
-              src={edunaLogo} 
+              src={edunaLogoWhite} 
               alt="Eduna Finland - Together for Inclusion" 
-              className="h-10 w-auto object-contain [filter:brightness(0)_saturate(100%)] dark:[filter:brightness(0)_saturate(100%)_invert(1)]"
+              className="h-10 w-auto object-contain"
+              loading="eager"
+              decoding="async"
+              fetchpriority="high"
             />
           </NavLink>
 
