@@ -40,19 +40,19 @@ const Approach = () => {
 
   const howWeWork = [
     {
-      title: "Collaborative",
-      description: "We listen and build on each school's strengths and culture.",
+      title: "We Hear",
+      description: "We listen and build on each setting's strengths and culture.",
     },
     {
-      title: "Reflective",
-      description: "We help staff think together and grow a shared understanding.",
+      title: "We Support",
+      description: "We help educators think together and grow a shared understanding.",
     },
     {
-      title: "Practical",
+      title: "We Are Practical",
       description: "We focus on small, realistic steps that make a visible difference.",
     },
     {
-      title: "Holistic",
+      title: "We're Holistic",
       description: "Inspired by all-day pedagogy, we see learning as something that happens everywhere.",
     },
   ];
@@ -138,34 +138,9 @@ const Approach = () => {
             <h2 className="text-4xl font-bold text-foreground mb-8 text-center">Why It Matters</h2>
             <Card className="border-none shadow-2xl bg-card">
               <CardContent className="p-12">
-                <div className="space-y-6 text-lg">
-                  <p className="text-muted-foreground">Our work helps schools:</p>
-                  <ul className="space-y-3 text-muted-foreground">
-                    <li className="flex items-start">
-                      <span className="text-accent mr-3 font-bold">✓</span>
-                      Create a shared vision and language of inclusion
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-accent mr-3 font-bold">✓</span>
-                      Strengthen staff wellbeing, confidence, and engagement
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-accent mr-3 font-bold">✓</span>
-                      Improve team collaboration and leadership clarity
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-accent mr-3 font-bold">✓</span>
-                      Build sustainable professional capacity and school reputation
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-accent mr-3 font-bold">✓</span>
-                      Most importantly: help every child feel seen, capable, and valued
-                    </li>
-                  </ul>
-                  <p className="text-xl font-semibold text-foreground pt-4">
-                    When educators feel supported and connected, inclusion becomes part of the culture. Not an extra task.
-                  </p>
-                </div>
+                <p className="text-xl text-foreground text-center leading-relaxed">
+                  When educators feel supported and connected, inclusion becomes part of the culture. Not an extra task. Every child feels valued, and learning communities thrive.
+                </p>
               </CardContent>
             </Card>
           </div>
@@ -175,7 +150,7 @@ const Approach = () => {
       {/* CTA */}
       <section className="py-20 bg-gradient-to-br from-primary via-primary to-primary/90 text-primary-foreground">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl font-bold mb-6">See How We Can Support Your School</h2>
+          <h2 className="text-4xl font-bold mb-6">See How We Can Support Your Setting</h2>
           <p className="text-xl text-primary-foreground/90 mb-8 max-w-2xl mx-auto">
             Explore our practical services designed to nurture inclusive education in your community.
           </p>
