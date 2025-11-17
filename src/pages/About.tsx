@@ -99,10 +99,10 @@ const About = () => {
                       </div>
                     </div>
                     <p className="text-muted-foreground mb-4">
-                      Finnish special education pedagogy expert who builds high performing educational teams. Päivi brings the reflective practices that make Finnish education world class. She helps schools develop shared vision and cultures where inclusion sticks.
+                      Finnish special education pedagogy expert who builds high performing educational teams. Päivi brings the reflective practices that make Finnish education world class. She helps educational settings develop shared vision and cultures where inclusion sticks.
                     </p>
                     <p className="text-muted-foreground">
-                      Her specialty: pedagogical assessment, observation strategies, and family partnerships. But her real superpower? Strengthening educator wellbeing and confidence. Because that's where true inclusion starts. She gives school leaders practical tools to build capacity that lasts. Confident educators raise confident, capable children.
+                      Her specialty: pedagogical assessment, observation strategies, and family partnerships. But her real superpower? Strengthening educator wellbeing and confidence. Because that's where true inclusion starts. She gives educational leaders practical tools to build capacity that lasts. Confident educators raise confident, capable children.
                     </p>
                   </div>
                 </div>
