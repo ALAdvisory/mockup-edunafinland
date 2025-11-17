@@ -9,7 +9,7 @@ const Services = () => {
       icon: Target,
       title: "Discovery",
       subtitle: "Start Your Inclusion Journey",
-      description: "Perfect for schools taking their first steps toward systemic inclusion.",
+      description: "Perfect for educational settings taking their first steps toward systemic inclusion.",
       timeline: "2-4 weeks",
       price: "Starting package",
       highlights: [
@@ -18,13 +18,13 @@ const Services = () => {
         "Custom action plan with clear next steps",
         "Follow-up consultation to ensure momentum",
       ],
-      ideal: "Schools new to inclusive education or seeking clarity on where to begin",
+      ideal: "Educational settings new to inclusive education or seeking clarity on where to begin",
     },
     {
       icon: Users,
       title: "Transform",
       subtitle: "Build Lasting Capacity",
-      description: "Comprehensive support to embed inclusion into your school culture.",
+      description: "Comprehensive support to embed inclusion into your educational culture.",
       timeline: "3-6 months",
       price: "Most popular",
       highlights: [
@@ -34,7 +34,7 @@ const Services = () => {
         "Complete resource toolkit and materials",
         "Ongoing partnership and support",
       ],
-      ideal: "Schools committed to deep, sustainable change in inclusive practices",
+      ideal: "Educational settings committed to deep, sustainable change in inclusive practices",
       featured: true,
     },
     {
@@ -52,13 +52,13 @@ const Services = () => {
         "Custom materials and curriculum adaptation",
         "Access to complete resource library",
       ],
-      ideal: "Schools pursuing excellence and sustained leadership in inclusion",
+      ideal: "Educational settings pursuing excellence and sustained leadership in inclusion",
     },
   ];
 
   const outcomes = [
-    "Clear vision and shared language across your school",
-    "Confident staff who feel equipped and supported",
+    "Clear vision and shared language across your setting",
+    "Confident educators who feel equipped and supported",
     "Measurable improvements in collaboration and culture",
     "Children who thrive in truly inclusive environments",
   ];
@@ -78,7 +78,7 @@ const Services = () => {
               Every Educator Empowered.
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8">
-              Finnish special education expertise that transforms schools without overwhelming your teams.
+              Finnish SEN expertise that supports educational settings without overwhelming your teams.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <NavLink to="/contact">
@@ -194,8 +194,28 @@ const Services = () => {
         </div>
       </section>
 
+      {/* Custom Solutions CTA */}
+      <section className="py-20 bg-gradient-to-br from-secondary via-background to-background">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
+              Don't See What You're Looking For?
+            </h2>
+            <p className="text-xl text-muted-foreground mb-8">
+              Every educational setting's journey is unique. Let's design a custom package that fits your specific context, timeline, and goals. We also offer hourly consultations to support compliance with local regulations.
+            </p>
+            <NavLink to="/contact">
+              <Button variant="cta" size="lg" className="text-lg px-8">
+                Design Your Custom Solution
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </Button>
+            </NavLink>
+          </div>
+        </div>
+      </section>
+
       {/* Speaking Engagements */}
-      <section className="py-20 bg-gradient-to-br from-accent/5 to-secondary">
+      <section className="py-20">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-5xl mx-auto">
             <div className="text-center mb-12">
@@ -207,57 +227,35 @@ const Services = () => {
                 Speaking Engagements
               </h2>
               <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-                Invite Olga and Päivi to inspire your conference, professional development day, or educational event with practical insights from Finnish inclusive education.
+                Invite Olga and Päivi to inspire your event with practical insights from Finnish inclusive education.
               </p>
             </div>
 
             <Card className="border-none shadow-xl bg-card">
-              <CardContent className="p-8 md:p-12">
-                <div className="grid md:grid-cols-2 gap-8">
-                  <div>
-                    <h3 className="text-2xl font-bold text-foreground mb-4">
-                      World-Class Speakers
-                    </h3>
-                    <p className="text-muted-foreground mb-6">
-                      With decades of experience in Finnish special needs and inclusive education, Olga and Päivi deliver engaging, practical presentations that resonate with educators at all levels. Whether addressing a small team or a large conference, they bring clarity, inspiration, and actionable strategies.
-                    </p>
-                    <div className="space-y-3">
-                      {[
-                        "Keynote presentations for conferences",
-                        "Professional development workshops",
-                        "Leadership team sessions",
-                        "Educational summit presentations",
-                        "Panel discussions and Q&A forums"
-                      ].map((item, idx) => (
-                        <div key={idx} className="flex items-start gap-3">
-                          <div className="w-5 h-5 rounded-full bg-accent/20 flex items-center justify-center flex-shrink-0 mt-0.5">
-                            <Check className="h-3 w-3 text-accent" />
-                          </div>
-                          <span className="text-foreground">{item}</span>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-
-                  <div className="space-y-6">
+              <CardContent className="p-8">
+                <div className="space-y-6">
+                  <p className="text-muted-foreground">
+                    With decades of Finnish SEN and inclusive education experience, Olga and Päivi deliver engaging presentations that resonate with educators at all levels.
+                  </p>
+                  
+                  <div className="grid md:grid-cols-2 gap-6">
                     <div className="p-6 bg-secondary rounded-xl">
-                      <h4 className="font-semibold text-foreground mb-2">Popular Topics Include:</h4>
+                      <h4 className="font-semibold text-foreground mb-3">Popular Topics:</h4>
                       <ul className="space-y-2 text-sm text-muted-foreground">
-                        <li>• Building truly inclusive classrooms</li>
-                        <li>• Finnish approaches to early intervention</li>
-                        <li>• Supporting educator wellbeing and confidence</li>
-                        <li>• Practical behavioral support strategies</li>
-                        <li>• Creating collaborative school cultures</li>
-                        <li>• Individualized learning and assessment</li>
+                        <li>• Building inclusive classrooms</li>
+                        <li>• Finnish early intervention</li>
+                        <li>• Educator wellbeing & confidence</li>
+                        <li>• Practical behavioral support</li>
+                        <li>• Collaborative cultures</li>
                       </ul>
                     </div>
-
+                    
                     <div className="p-6 bg-primary/5 rounded-xl border border-primary/20">
                       <p className="text-sm text-foreground mb-4">
-                        <span className="font-semibold">Flexible formats:</span> From 45-minute keynotes to half-day workshops, we tailor our presentations to fit your event and audience needs.
+                        <span className="font-semibold">Flexible formats:</span> From keynotes to half-day workshops, tailored to your needs.
                       </p>
                       <NavLink to="/contact">
-                        <Button variant="cta" size="lg" className="w-full">
+                        <Button variant="cta" className="w-full">
                           Book a Speaker
                           <ArrowRight className="ml-2 h-4 w-4" />
                         </Button>
@@ -268,55 +266,6 @@ const Services = () => {
               </CardContent>
             </Card>
           </div>
-        </div>
-      </section>
-
-      {/* Social Proof / Trust Section */}
-      <section className="py-20 bg-secondary">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-5xl mx-auto">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-foreground mb-4">Built on Proven Expertise</h2>
-              <p className="text-lg text-muted-foreground">
-                Decades of hands-on experience in Finland's world-renowned education system
-              </p>
-            </div>
-            <div className="grid md:grid-cols-3 gap-8 text-center">
-              <div>
-                <div className="text-5xl font-bold text-primary mb-2">35+</div>
-                <p className="text-muted-foreground">Years Combined Experience</p>
-              </div>
-              <div>
-                <div className="text-5xl font-bold text-primary mb-2">100%</div>
-                <p className="text-muted-foreground">Finnish-Trained Experts</p>
-              </div>
-              <div>
-                <div className="text-5xl font-bold text-primary mb-2">∞</div>
-                <p className="text-muted-foreground">Potential for Growth</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Custom Solutions CTA */}
-      <section className="py-20">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <Card className="border-none shadow-2xl bg-gradient-to-br from-primary via-primary to-primary/80 text-primary-foreground overflow-hidden relative">
-            <div className="absolute inset-0 bg-grid-white/5" />
-            <CardContent className="p-12 md:p-16 text-center relative z-10">
-              <h2 className="text-4xl md:text-5xl font-bold mb-6">Don't See What Your School Needs?</h2>
-              <p className="text-xl text-primary-foreground/90 mb-8 max-w-2xl mx-auto">
-                Every school's journey is unique. Let's design a custom package that fits your specific context, timeline, and goals.
-              </p>
-              <NavLink to="/contact">
-                <Button variant="hero" size="lg" className="text-lg px-10 py-7">
-                  Design Your Custom Package
-                  <ArrowRight className="ml-2 h-5 w-5" />
-                </Button>
-              </NavLink>
-            </CardContent>
-          </Card>
         </div>
       </section>
     </div>

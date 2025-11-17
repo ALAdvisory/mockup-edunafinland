@@ -1,40 +1,40 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { NavLink } from "@/components/NavLink";
-import { Sparkles, Users, BookOpen, Sprout, Award, Globe } from "lucide-react";
+import { Sparkles, Users, BookOpen, Heart, Award, Globe } from "lucide-react";
 import heroImage from "@/assets/hero-education.jpg";
 import finnishNature from "@/assets/finnish-nature.jpg";
 
 const Home = () => {
   const features = [
       {
-        icon: Sprout,
-        title: "Collaborative Partnership",
-        description: "We work alongside your leadership and staff, co-creating solutions that fit your school's unique context.",
+        icon: Heart,
+        title: "Every Child Deserves to Thrive",
+        description: "Every child has the right to feel safe, capable, and valued. We see the potential in each learner.",
       },
       {
         icon: Users,
-        title: "Staff Wellbeing First",
-        description: "Supporting your educators' confidence and capacity creates the foundation for thriving children.",
+        title: "Collaboration & Reflection",
+        description: "Keys to growth. Small, thoughtful changes can lead to meaningful impact.",
       },
     {
       icon: BookOpen,
-      title: "Evidence-Based",
-      description: "Rooted in Finnish education excellence with decades of proven inclusive practices.",
+      title: "Practical from Day One",
+      description: "Your educators get strategies, materials, and know-how they can use immediately with children and guardians.",
     },
     {
       icon: Globe,
-      title: "Global Impact",
-      description: "Finnish values that speak to educators and children everywhere, enriching learning communities worldwide.",
+      title: "Build Trust & Recognition",
+      description: "When educators master inclusive practices, guardians trust them. Staff feel valued for their expertise.",
     },
   ];
 
   const outcomes = [
-    "Create a shared vision and common language for inclusion",
-    "Build confident, equipped staff who work cohesively",
-    "Develop sustainable systems and professional capacity",
-    "Strengthen your school's reputation and outcomes",
-    "Ensure every child feels seen, capable, and valued",
+    "Practical materials and strategies to use from day one",
+    "Know-how to build inclusive lessons and communications",
+    "Confidence working with children and their guardians",
+    "Recognition and trust from guardians for their expertise",
+    "Sustainable practices rooted in collaboration and reflection",
   ];
 
   return (
@@ -52,11 +52,11 @@ const Home = () => {
 
         <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 text-center max-w-5xl animate-fade-in">
           <h1 className="text-5xl md:text-7xl font-bold text-primary-foreground mb-6 leading-tight">
-            <span className="text-accent">Build Inclusive Schools.</span><br />
+            <span className="text-accent">Inclusive Education.</span><br />
             The Finnish Way.
           </h1>
           <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8 max-w-3xl mx-auto">
-            Expert training and practical support to help your staff work confidently with diverse learners and children with special needs.
+            Expert training and practical support to help your educators work confidently with diverse learners and SEN (Special Educational Needs).
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <NavLink to="/contact">

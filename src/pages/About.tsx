@@ -109,14 +109,11 @@ const About = () => {
               </CardContent>
             </Card>
 
-            {/* CTA Card */}
+            {/* CTA Card - Network */}
             <div className="mt-8 p-8 bg-gradient-to-br from-primary/10 to-accent/10 rounded-xl">
-              <h4 className="text-xl font-bold text-foreground mb-3">World-Class Expertise You Can Trust</h4>
-              <p className="text-muted-foreground mb-4">
-                Olga and Päivi are recognized as leading experts in Finnish inclusive education, bringing over 35 years of combined experience to institutions worldwide. They work with organizations of all sizes—from small private schools to large public education systems—delivering proven results that transform learning communities.
-              </p>
+              <h4 className="text-xl font-bold text-foreground mb-3">Extended Network for Larger Projects</h4>
               <p className="text-muted-foreground mb-6">
-                For larger scale projects, they draw upon an extensive network of world-class professionals, assembling specialized teams tailored to your unique needs. Whether you're a single school or a multi-site organization, you'll receive the same commitment to excellence and practical, sustainable solutions.
+                For comprehensive initiatives, Olga and Päivi collaborate with a network of top educators, assembling specialized teams tailored to your needs.
               </p>
               <NavLink to="/contact">
                 <Button variant="cta" size="lg" className="w-full">
@@ -162,13 +159,9 @@ const About = () => {
               <CardContent className="p-12 text-center">
                 <h2 className="text-3xl md:text-4xl font-bold mb-6">What We Share</h2>
                 <div className="space-y-4 text-lg">
-                  <p>We don't bring ready-made solutions, but create them together.</p>
+                  <p>We motivate educators to engage with their peers. We believe in peer-to-peer learning, not just teaching.</p>
                   <p>
-                    Our aim is not just to teach new methods, but to strengthen teachers' sense of purpose and
-                    wellbeing.
-                  </p>
-                  <p className="text-xl font-semibold">
-                    When educators feel confident and supported, they can create the same feeling for the children.
+                    To create a phenomenon, we need more people learning through collaboration and shared experience.
                   </p>
                 </div>
               </CardContent>
