@@ -118,11 +118,11 @@ const Home = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-              Invest in Your Staff,<br />
-              <span className="text-primary">Transform Your School</span>
+              Invest in Your Educators,<br />
+              <span className="text-primary">Transform Your Setting</span>
             </h2>
             <p className="text-lg text-muted-foreground mb-6">
-              We help school leaders create sustainable change by strengthening their greatest asset: their educators. When your staff feel supported and equipped, inclusion becomes part of your school culture — not an added burden.
+              We help educational leaders create sustainable change by strengthening their greatest asset: their educators. When your staff feel supported and equipped, inclusion becomes part of your culture — not an added burden.
             </p>
               <div className="space-y-3">
                 {outcomes.map((outcome, index) => (
@@ -149,9 +149,9 @@ const Home = () => {
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-br from-primary via-primary to-primary/90 text-primary-foreground">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">Ready to Build an Inclusive School?</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-6">Ready to Build Inclusive Education?</h2>
           <p className="text-xl text-primary-foreground/90 mb-8 max-w-2xl mx-auto">
-            Join forward-thinking school leaders who are transforming their institutions with Finnish special education expertise.
+            Join forward-thinking educational leaders who are transforming their institutions with Finnish SEN expertise.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <NavLink to="/contact">

@@ -101,7 +101,7 @@ const Contact = () => {
               Let's Start the <span className="text-primary">Conversation</span>
             </h1>
             <p className="text-xl text-muted-foreground">
-              Ready to transform your school? Book a complimentary consultation to explore how we can support your inclusion journey.
+              Ready to strengthen inclusive education? Book a complimentary consultation to explore how we can support your journey.
             </p>
           </div>
         </div>
@@ -154,7 +154,7 @@ const Contact = () => {
                       type="text"
                       value={formData.organization}
                       onChange={(e) => setFormData({ ...formData, organization: e.target.value })}
-                      placeholder="School, preschool, or company name"
+                      placeholder="Educational setting or organization name"
                       className="mt-2"
                     />
                   </div>
@@ -166,7 +166,7 @@ const Contact = () => {
                       type="text"
                       value={formData.role}
                       onChange={(e) => setFormData({ ...formData, role: e.target.value })}
-                      placeholder="e.g., Principal, Teacher, Director"
+                      placeholder="e.g., Principal, Educator, Director"
                       className="mt-2"
                     />
                   </div>
