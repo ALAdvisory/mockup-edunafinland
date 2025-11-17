@@ -89,7 +89,7 @@ const Home = () => {
               Why <span className="text-primary">Finnish Education?</span>
             </h2>
             <p className="text-lg text-muted-foreground">
-              Finland's approach to special needs and inclusive education is world-renowned for its evidence-based practices, highly qualified educators, and comprehensive support systems. Schools provide every child with the support they need through early intervention, individualized planning, and seamless collaboration between staff, specialists, and families.
+              We don't believe in one-size-fits-all solutions. Instead, we take what makes Finnish inclusive education exceptional—its evidence-based practices and collaborative spirit—and adapt it to fit your unique context, culture, and goals.
             </p>
           </div>
 
