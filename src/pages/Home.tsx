@@ -67,7 +67,7 @@ const Home = () => {
             </NavLink>
             <NavLink to="/services">
               <Button variant="outline" size="lg" className="text-lg px-10 py-7 border-2 border-primary-foreground bg-transparent text-primary-foreground hover:bg-primary-foreground hover:text-primary">
-                View Packages
+                Services
               </Button>
             </NavLink>
           </div>
@@ -161,7 +161,7 @@ const Home = () => {
             </NavLink>
             <NavLink to="/services">
               <Button variant="outline" size="lg" className="text-lg px-10 py-7 border-2 border-primary-foreground bg-transparent text-primary-foreground hover:bg-primary-foreground hover:text-primary">
-                Explore Packages
+                Services
               </Button>
             </NavLink>
           </div>
