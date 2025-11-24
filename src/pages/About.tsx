@@ -99,10 +99,10 @@ const About = () => {
                       </div>
                     </div>
                     <p className="text-muted-foreground mb-4">
-                      Over 25 years, Päivi has helped hundreds of educators transform challenging behaviors into breakthrough moments. She specializes in ADHD and autism support—bringing both five academic degrees and lived experience as a parent. Päivi especially supports educators facing sensory overwhelm, emotional regulation challenges, and complex family dynamics through her expertise in music-based interventions and multidisciplinary collaboration.
+                      Over 25 years, Päivi has supported hundreds of educators working with children who have ADHD and autism. She holds five degrees in education and brings personal experience as a parent navigating these same challenges. Päivi especially helps educators facing sensory overwhelm, emotional regulation difficulties, and complex family situations through her expertise in music-based interventions and team collaboration.
                     </p>
                     <p className="text-muted-foreground">
-                      Her approach: listen deeply, act practically. Educators working with Päivi gain confidence to handle what once felt impossible. She doesn't just teach methods—she rebuilds your sense of purpose. Parents trust her. Kids feel safe with her. And teachers rediscover why they chose this work.
+                      Her approach is simple: listen first, then solve together. Educators gain practical skills to handle situations that once felt overwhelming. Parents find someone who truly understands. Kids feel safe. Päivi helps you build the classroom you've always wanted, one small change at a time.
                     </p>
                   </div>
                 </div>
