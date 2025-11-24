@@ -4,6 +4,29 @@ import { NavLink } from "@/components/NavLink";
 import { Sparkles, Target, Users, Rocket, ArrowRight, Check, Mic2 } from "lucide-react";
 
 const Services = () => {
+  const services = [
+    {
+      title: "Professional Development",
+      description: "Practical, inclusive professional development through targeted trainings and hands-on workshops. We deliver concrete strategies and early support tools that help educators strengthen everyday pedagogy and create learning environments where every child can participate and thrive.",
+    },
+    {
+      title: "Consultation",
+      description: "Ongoing consultation to support educators in applying inclusive practices in real classroom situations. Through regular check-ins and practical guidance, we help teams solve challenges, stay aligned, and strengthen consistent, child-centered approaches.",
+    },
+    {
+      title: "Family and Caregiver Support",
+      description: "Support for families and caregivers through practical guidance and open communication, helping build strong home-setting partnerships that promote each child's wellbeing and participation.",
+    },
+    {
+      title: "Practical Tools",
+      description: "Ready-to-use tools that help educators support children's participation, regulation, and learning in everyday situations. Tested in real classrooms, designed for immediate impact.",
+    },
+    {
+      title: "Curriculum and Lesson Plan Adaptation",
+      description: "Practical frameworks and tailored strategies that help educators meet diverse learning needs while keeping daily teaching clear, inclusive, and manageable.",
+    },
+  ];
+
   const packages = [
     {
       icon: Target,
@@ -13,7 +36,7 @@ const Services = () => {
       timeline: "2-4 weeks",
       price: "Starting package",
       highlights: [
-        "Evidence-based assessment of current practices",
+        "Assessment of current practices",
         "Goal-setting workshop with leadership team",
         "Custom action plan with clear next steps",
         "Follow-up consultation to ensure momentum",
@@ -28,11 +51,12 @@ const Services = () => {
       timeline: "3-6 months",
       price: "Most popular",
       highlights: [
-        "Full assessment with detailed roadmap",
+        "Assessment of current practices",
         "Customized workshop series for all staff",
+        "Inclusive lesson plans",
+        "Practical tools and guidelines",
         "Regular team consultation and coaching",
-        "Complete resource toolkit and materials",
-        "Ongoing partnership and support",
+        "Ongoing support",
       ],
       ideal: "Educational settings committed to deep, sustainable change in inclusive practices",
       featured: true,
@@ -45,12 +69,13 @@ const Services = () => {
       timeline: "12+ months",
       price: "Premium support",
       highlights: [
-        "Full-spectrum assessment and strategy",
+        "Assessment of current practices",
         "Monthly training and development sessions",
-        "Priority consultation and rapid support",
+        "Inclusive lesson plans",
+        "Practical tools and guidelines",
         "Leadership mentoring and coaching",
-        "Custom materials and curriculum adaptation",
-        "Access to complete resource library",
+        "Ongoing support",
+        "Priority consultation and rapid support",
       ],
       ideal: "Educational settings pursuing excellence and sustained leadership in inclusion",
     },
@@ -97,6 +122,31 @@ const Services = () => {
         </div>
       </section>
 
+      {/* Services Overview */}
+      <section className="py-20">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-3xl mx-auto text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
+              Our Services
+            </h2>
+            <p className="text-xl text-muted-foreground">
+              We offer flexible support tailored to your setting's unique needs and goals.
+            </p>
+          </div>
+
+          <div className="max-w-5xl mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {services.map((service, index) => (
+              <Card key={index} className="border-none shadow-lg hover:shadow-xl transition-all duration-300 bg-card">
+                <CardContent className="p-6">
+                  <h3 className="text-xl font-bold text-foreground mb-3">{service.title}</h3>
+                  <p className="text-sm text-muted-foreground leading-relaxed">{service.description}</p>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Outcomes */}
       <section className="py-20 bg-secondary">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -126,10 +176,10 @@ const Services = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-              Choose Your Path Forward
+              Service Packages
             </h2>
             <p className="text-xl text-muted-foreground">
-              Flexible packages designed for real schools with real constraints. Start small or go comprehensive.
+              Flexible packages designed for real educational settings with real constraints. Start small or go comprehensive.
             </p>
           </div>
 
