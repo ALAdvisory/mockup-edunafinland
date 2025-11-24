@@ -99,10 +99,13 @@ const About = () => {
                       </div>
                     </div>
                     <p className="text-muted-foreground mb-4">
-                      Finnish special education pedagogy expert who builds high performing educational teams. Päivi brings the reflective practices that make Finnish education world class. She helps educational settings develop shared vision and cultures where inclusion sticks.
+                      With nearly 25 years in Finnish early childhood and special education, Päivi is a passionate lifelong learner who holds five degrees in education. She brings specialized expertise in ADHD and autism—not just from professional training, but from lived experience as a parent and close caregiver. This personal insight gives her an authenticity and depth that educators and families immediately recognize and trust.
+                    </p>
+                    <p className="text-muted-foreground mb-4">
+                      Known as a true listener, Päivi combines empathy with solution-oriented thinking. She's creative, courageous, and deeply connected to child-centered practice. Her approach weaves communication, engagement, and meaningful collaboration with parents and multidisciplinary teams into everything she does.
                     </p>
                     <p className="text-muted-foreground">
-                      Her specialty: pedagogical assessment, observation strategies, and family partnerships. But her real superpower? Strengthening educator wellbeing and confidence. Because that's where true inclusion starts. She gives educational leaders practical tools to build capacity that lasts. Confident educators raise confident, capable children.
+                      Päivi brings music and movement into her teaching, creating environments where children feel safe to explore and grow. Her real gift? She doesn't just teach inclusion—she helps you feel it, build it, and sustain it. When educators work with Päivi, they rediscover why they chose this work in the first place.
                     </p>
                   </div>
                 </div>
