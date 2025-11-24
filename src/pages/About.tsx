@@ -69,10 +69,10 @@ const About = () => {
                       </div>
                     </div>
                     <p className="text-muted-foreground mb-4">
-                      Finnish trained special education teacher specializing in early childhood and preschool inclusion. Olga transforms complex concepts into practical strategies educators can use immediately. She makes the Finnish approach accessible and real.
+                      With over 15 years working in Finland and internationally, including the MENA region, Olga currently supports 25+ educators in private early years centres and preschools. She holds a Master's in Early Childhood Special Education and Psychology with specialized training in speech therapy. Olga especially helps educators working with bilingual and multilingual children, spotting early signs of additional support needs before they become bigger challenges.
                     </p>
                     <p className="text-muted-foreground">
-                      Her focus: behavioral support, individualized planning, and early intervention. She helps educators spot support needs early and respond with confidence. No theory for theory's sake. Just sustainable practices that work in actual classrooms with real children.
+                      Her strength is early intervention and building bridges between educators and families. When communication gets complex or cultural differences create uncertainty, Olga brings clarity. She turns complicated assessments into practical next steps. Educators gain confidence. Families feel heard. Children get the support they need, when they need it.
                     </p>
                   </div>
                 </div>
