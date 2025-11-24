@@ -99,10 +99,10 @@ const About = () => {
                       </div>
                     </div>
                     <p className="text-muted-foreground mb-4">
-                      With 25 years in Finnish early childhood and special education, Päivi holds five degrees and deep expertise in ADHD and autism—both professionally and personally as a parent. This lived experience gives her work an authenticity that educators and families trust immediately.
+                      Over 25 years, Päivi has helped hundreds of educators transform challenging behaviors into breakthrough moments. She specializes in ADHD and autism support—bringing both five academic degrees and lived experience as a parent. Päivi especially supports educators facing sensory overwhelm, emotional regulation challenges, and complex family dynamics through her expertise in music-based interventions and multidisciplinary collaboration.
                     </p>
                     <p className="text-muted-foreground">
-                      Known for being a true listener, Päivi blends empathy with practical solutions. She uses music, movement, and collaborative reflection to build inclusive environments where children thrive and educators rediscover their purpose. When you work with Päivi, you don't just learn inclusion—you feel it, build it, and sustain it.
+                      Her approach: listen deeply, act practically. Educators working with Päivi gain confidence to handle what once felt impossible. She doesn't just teach methods—she rebuilds your sense of purpose. Parents trust her. Kids feel safe with her. And teachers rediscover why they chose this work.
                     </p>
                   </div>
                 </div>
