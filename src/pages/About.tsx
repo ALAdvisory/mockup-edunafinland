@@ -99,13 +99,10 @@ const About = () => {
                       </div>
                     </div>
                     <p className="text-muted-foreground mb-4">
-                      With nearly 25 years in Finnish early childhood and special education, Päivi is a passionate lifelong learner who holds five degrees in education. She brings specialized expertise in ADHD and autism—not just from professional training, but from lived experience as a parent and close caregiver. This personal insight gives her an authenticity and depth that educators and families immediately recognize and trust.
-                    </p>
-                    <p className="text-muted-foreground mb-4">
-                      Known as a true listener, Päivi combines empathy with solution-oriented thinking. She's creative, courageous, and deeply connected to child-centered practice. Her approach weaves communication, engagement, and meaningful collaboration with parents and multidisciplinary teams into everything she does.
+                      With 25 years in Finnish early childhood and special education, Päivi holds five degrees and deep expertise in ADHD and autism—both professionally and personally as a parent. This lived experience gives her work an authenticity that educators and families trust immediately.
                     </p>
                     <p className="text-muted-foreground">
-                      Päivi brings music and movement into her teaching, creating environments where children feel safe to explore and grow. Her real gift? She doesn't just teach inclusion—she helps you feel it, build it, and sustain it. When educators work with Päivi, they rediscover why they chose this work in the first place.
+                      Known for being a true listener, Päivi blends empathy with practical solutions. She uses music, movement, and collaborative reflection to build inclusive environments where children thrive and educators rediscover their purpose. When you work with Päivi, you don't just learn inclusion—you feel it, build it, and sustain it.
                     </p>
                   </div>
                 </div>
