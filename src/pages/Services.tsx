@@ -9,6 +9,7 @@ const Services = () => {
       icon: GraduationCap,
       title: "Professional Development",
       description: "Targeted trainings and hands-on workshops with concrete strategies that work.",
+      examples: ["Sensory regulation workshops", "Behavioral support strategies", "Inclusive classroom design"],
       color: "from-blue-500/10 to-blue-600/5",
       iconColor: "text-blue-600"
     },
@@ -16,6 +17,7 @@ const Services = () => {
       icon: MessageCircle,
       title: "Consultation",
       description: "Regular check-ins and practical guidance to solve real classroom challenges.",
+      examples: ["Weekly team sessions", "Individual child case reviews", "Implementation support"],
       color: "from-purple-500/10 to-purple-600/5",
       iconColor: "text-purple-600"
     },
@@ -23,6 +25,7 @@ const Services = () => {
       icon: Heart,
       title: "Family Support",
       description: "Build strong partnerships through practical guidance and open communication.",
+      examples: ["Parent workshops", "Home-school communication tools", "Family strategy sessions"],
       color: "from-pink-500/10 to-pink-600/5",
       iconColor: "text-pink-600"
     },
@@ -30,6 +33,7 @@ const Services = () => {
       icon: Wrench,
       title: "Practical Tools",
       description: "Ready-to-use resources tested in real classrooms for immediate impact.",
+      examples: ["Visual schedules", "Regulation toolkits", "Observation templates"],
       color: "from-amber-500/10 to-amber-600/5",
       iconColor: "text-amber-600"
     },
@@ -37,6 +41,7 @@ const Services = () => {
       icon: BookOpen,
       title: "Curriculum Adaptation",
       description: "Tailored frameworks that meet diverse needs while keeping teaching manageable.",
+      examples: ["Differentiated lesson plans", "Assessment modifications", "Learning pathways"],
       color: "from-emerald-500/10 to-emerald-600/5",
       iconColor: "text-emerald-600"
     },
@@ -163,9 +168,16 @@ const Services = () => {
                   <h3 className="text-xl font-bold text-foreground mb-3 group-hover:text-primary transition-colors">
                     {service.title}
                   </h3>
-                  <p className="text-sm text-muted-foreground leading-relaxed">
+                  <p className="text-sm text-muted-foreground leading-relaxed mb-4">
                     {service.description}
                   </p>
+                  <div className="flex flex-wrap gap-2">
+                    {service.examples.map((example, idx) => (
+                      <span key={idx} className="text-xs px-3 py-1 bg-secondary/50 text-muted-foreground rounded-full">
+                        {example}
+                      </span>
+                    ))}
+                  </div>
                 </CardContent>
               </Card>
             ))}
