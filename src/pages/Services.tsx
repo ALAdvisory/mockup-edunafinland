@@ -1,29 +1,44 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { NavLink } from "@/components/NavLink";
-import { Sparkles, Target, Users, Rocket, ArrowRight, Check, Mic2 } from "lucide-react";
+import { Sparkles, Target, Users, Rocket, ArrowRight, Check, Mic2, GraduationCap, MessageCircle, Heart, Wrench, BookOpen } from "lucide-react";
 
 const Services = () => {
   const services = [
     {
+      icon: GraduationCap,
       title: "Professional Development",
-      description: "Practical, inclusive professional development through targeted trainings and hands-on workshops. We deliver concrete strategies and early support tools that help educators strengthen everyday pedagogy and create learning environments where every child can participate and thrive.",
+      description: "Targeted trainings and hands-on workshops with concrete strategies that work.",
+      color: "from-blue-500/10 to-blue-600/5",
+      iconColor: "text-blue-600"
     },
     {
+      icon: MessageCircle,
       title: "Consultation",
-      description: "Ongoing consultation to support educators in applying inclusive practices in real classroom situations. Through regular check-ins and practical guidance, we help teams solve challenges, stay aligned, and strengthen consistent, child-centered approaches.",
+      description: "Regular check-ins and practical guidance to solve real classroom challenges.",
+      color: "from-purple-500/10 to-purple-600/5",
+      iconColor: "text-purple-600"
     },
     {
-      title: "Family and Caregiver Support",
-      description: "Support for families and caregivers through practical guidance and open communication, helping build strong home-setting partnerships that promote each child's wellbeing and participation.",
+      icon: Heart,
+      title: "Family Support",
+      description: "Build strong partnerships through practical guidance and open communication.",
+      color: "from-pink-500/10 to-pink-600/5",
+      iconColor: "text-pink-600"
     },
     {
+      icon: Wrench,
       title: "Practical Tools",
-      description: "Ready-to-use tools that help educators support children's participation, regulation, and learning in everyday situations. Tested in real classrooms, designed for immediate impact.",
+      description: "Ready-to-use resources tested in real classrooms for immediate impact.",
+      color: "from-amber-500/10 to-amber-600/5",
+      iconColor: "text-amber-600"
     },
     {
-      title: "Curriculum and Lesson Plan Adaptation",
-      description: "Practical frameworks and tailored strategies that help educators meet diverse learning needs while keeping daily teaching clear, inclusive, and manageable.",
+      icon: BookOpen,
+      title: "Curriculum Adaptation",
+      description: "Tailored frameworks that meet diverse needs while keeping teaching manageable.",
+      color: "from-emerald-500/10 to-emerald-600/5",
+      iconColor: "text-emerald-600"
     },
   ];
 
@@ -134,12 +149,23 @@ const Services = () => {
             </p>
           </div>
 
-          <div className="max-w-5xl mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="max-w-6xl mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {services.map((service, index) => (
-              <Card key={index} className="border-none shadow-lg hover:shadow-xl transition-all duration-300 bg-card">
-                <CardContent className="p-6">
-                  <h3 className="text-xl font-bold text-foreground mb-3">{service.title}</h3>
-                  <p className="text-sm text-muted-foreground leading-relaxed">{service.description}</p>
+              <Card 
+                key={index} 
+                className="group border-none shadow-md hover:shadow-xl transition-all duration-300 bg-card overflow-hidden relative"
+              >
+                <div className={`absolute inset-0 bg-gradient-to-br ${service.color} opacity-0 group-hover:opacity-100 transition-opacity duration-300`} />
+                <CardContent className="p-8 relative z-10">
+                  <div className={`w-12 h-12 rounded-xl bg-gradient-to-br ${service.color} flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300`}>
+                    <service.icon className={`h-6 w-6 ${service.iconColor}`} />
+                  </div>
+                  <h3 className="text-xl font-bold text-foreground mb-3 group-hover:text-primary transition-colors">
+                    {service.title}
+                  </h3>
+                  <p className="text-sm text-muted-foreground leading-relaxed">
+                    {service.description}
+                  </p>
                 </CardContent>
               </Card>
             ))}
