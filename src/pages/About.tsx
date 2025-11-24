@@ -1,10 +1,9 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { NavLink } from "@/components/NavLink";
-import { Heart, Users, Lightbulb, Globe, GraduationCap, Target, Download } from "lucide-react";
+import { Heart, Users, Lightbulb, Globe, GraduationCap, Target } from "lucide-react";
 import olgaPortrait from "@/assets/olga-portrait.jpg";
 import paiviPortrait from "@/assets/paivi-portrait.jpg";
-import { generateContentPDF } from "@/utils/generateContentPDF";
 
 const About = () => {
   const values = [
@@ -116,22 +115,11 @@ const About = () => {
               <p className="text-muted-foreground mb-6">
                 For comprehensive initiatives, Olga and Päivi collaborate with a network of top educators, assembling specialized teams tailored to your needs.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <NavLink to="/contact" className="flex-1">
-                  <Button variant="cta" size="lg" className="w-full">
-                    Work With Us
-                  </Button>
-                </NavLink>
-                <Button 
-                  variant="outline" 
-                  size="lg" 
-                  onClick={generateContentPDF}
-                  className="flex-1"
-                >
-                  <Download className="mr-2 h-5 w-5" />
-                  Download Content PDF
+              <NavLink to="/contact">
+                <Button variant="cta" size="lg" className="w-full">
+                  Work With Us
                 </Button>
-              </div>
+              </NavLink>
             </div>
           </div>
         </div>
